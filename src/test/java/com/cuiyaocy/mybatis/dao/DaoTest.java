@@ -13,7 +13,7 @@ public class DaoTest {
     private static Reader reader;
     static{
         try{
-            reader = Resources.getResourceAsReader("Configuration.xml");
+            reader  = Resources.getResourceAsReader("Configuration.xml");
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
         }catch(Exception e){
             e.printStackTrace();
