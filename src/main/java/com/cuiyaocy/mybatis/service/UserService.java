@@ -1,7 +1,7 @@
 package com.cuiyaocy.mybatis.service;
 
-import com.cuiyaocy.mybatis.mapper.UserMapper;
-import com.cuiyaocy.mybatis.model.User;
+import com.cuiyaocy.mybatis.jdbc.mybatis.mapper.UserMapper;
+import com.cuiyaocy.mybatis.jdbc.mybatis.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

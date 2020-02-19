@@ -1,4 +1,4 @@
-package com.cuiyaocy.mybatis.model;
+package com.cuiyaocy.mybatis.jdbc.mybatis.model;
 
 import lombok.Data;
 

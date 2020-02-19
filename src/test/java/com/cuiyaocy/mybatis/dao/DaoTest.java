@@ -2,7 +2,7 @@ package com.cuiyaocy.mybatis.dao;
 
 import java.io.Reader;
 
-import com.cuiyaocy.mybatis.model.User;
+import com.cuiyaocy.mybatis.jdbc.mybatis.model.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -27,7 +27,7 @@ public class DaoTest {
     public static void main(String[] args) {
         SqlSession session = sqlSessionFactory.openSession();
         try {
-            User user = (User) session.selectOne("com.cuiyaocy.mybatis.mapper.UserMapper.selectUserByID", 2);
+            User user = (User) session.selectOne("com.cuiyaocy.mybatis.jdbc.mybatis.mapper.UserMapper.selectUserByID", 2);
             System.out.println(user.toString());
         } finally {
             session.close();

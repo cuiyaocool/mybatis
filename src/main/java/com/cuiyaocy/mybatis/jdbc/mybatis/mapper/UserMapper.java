@@ -1,6 +1,6 @@
-package com.cuiyaocy.mybatis.mapper;
+package com.cuiyaocy.mybatis.jdbc.mybatis.mapper;
 
-import com.cuiyaocy.mybatis.model.User;
+import com.cuiyaocy.mybatis.jdbc.mybatis.model.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
